@@ -1,0 +1,94 @@
+* {
+    border: none;
+    box-sizing: border-box;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: #1e1e1e;
+}
+
+main {
+    margin: 0 auto;
+    width: 43em;
+}
+
+main > header {
+    margin: 1em auto;
+}
+
+input {
+    background: #282a2e;
+    border: 1px solid #676867;
+    color: #fff;
+    font-size: 125%;
+    padding: 0.25em;
+}
+
+input[type=text] {
+    margin: 0.05em 0.15em;
+    width: 30em;
+}
+
+input[type=button] {
+    cursor: pointer;
+    padding: 0.25em;
+    width: 3.8em;
+}
+
+.keys .row {
+    white-space: nowrap;
+}
+
+.keys .row:nth-child(2) {
+    padding-left: 1.5em;
+}
+
+.keys .row:nth-child(3) {
+    padding-left: 4em;
+}
+
+.key {
+    background: #282a2e;
+    border: 1px solid #676867;
+    cursor: pointer;
+    display: inline-block;
+    height: 4em;
+    margin: 0.05em 0.15em;
+    position: relative;
+    width: 4em;
+}
+
+.key .qwerty {
+    color: #66d9ef;
+    font-size: 80%;
+    left: 0.2em;
+    position: absolute;
+    top: 0.1em;
+}
+
+.key .shifted {
+    color: #f92672;
+    font-size: 125%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.key .hangul {
+    bottom: 0.1em;
+    color: #a6e22e;
+    font-size: 150%;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
